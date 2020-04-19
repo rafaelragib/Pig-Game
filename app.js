@@ -66,6 +66,7 @@ document.querySelector('.btn-hold').addEventListener('click',function()
 	if(score[active]>=winningscore){
 		document.getElementById('name-'+active).textContent='Winner!';
 		document.querySelector('.dice').style.display='None';
+		document.querySelector('.dicesecond').style.display='none';
 		document.querySelector('.player-'+active+'-panel').classList.add('winner');
 		document.querySelector('.player-'+active+'-panel').classList.remove('active');
 		gameover=true;
