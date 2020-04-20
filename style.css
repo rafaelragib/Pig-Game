@@ -165,7 +165,7 @@ i {
 .winnerclass
 {       
     position: absolute;
-    left: 47%;
+    left: 46%;
     top: 10px;
     font-family: 'lato';
 
@@ -173,6 +173,6 @@ i {
 .winnerinput
 {
   height: 26px;
-    width: 56px;
+    width: 74px;
     text-align: center;
 }
